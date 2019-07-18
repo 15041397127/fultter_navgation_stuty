@@ -135,14 +135,14 @@ class RouteButton extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return RaisedButton(
-        child: Text('查看商品详情页'),
+        child: Text('查看商品详情页!'),
         onPressed: () {
 //               Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: null), predicate)
 //              Navigator.push(
 //                  context,
 //                  MaterialPageRoute(
 //                      builder: (BuildContext context) => SecondPage()));
-          _navigateRoute(context);
+          _navigateRoute(context);//111
         }
         );
   }
